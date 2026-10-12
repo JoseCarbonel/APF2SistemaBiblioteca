@@ -12,7 +12,6 @@ public class Libro {
 
     @Column(nullable = false)
     private String titulo;
-
     private String isbn;
     private String categoria;
     private Integer stock;

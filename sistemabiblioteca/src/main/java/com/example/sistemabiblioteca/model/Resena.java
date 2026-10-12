@@ -9,7 +9,6 @@ public class Resena {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private Long libroId;
     private String comentario;
     private Integer calificacion;
